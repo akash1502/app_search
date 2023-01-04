@@ -1,0 +1,110 @@
+   @media only screen and (min-width: 768px) {
+        .doc_img {
+            width:98%;
+            height:900px;
+        }
+    }
+    @media only screen and (min-width: 200px) and (max-width: 767px)  {
+        .doc_img {
+            width:98%;
+            height:900px;
+        }
+    }
+
+    .owl-carousel .owl-prev {
+        right: unset !important;
+    }
+
+    /*.owl-item.active {
+        width: 900.653px !important;
+    }*/
+    .owl-carousel .owl-stage {
+        padding-left: 0 !important;
+    }
+
+    #news-slider{
+        margin-top: 80px;
+    }
+    .post-slide{
+        margin: 20px 15px 20px;
+        border-radius: 15px;
+        padding-top: 1px;
+    }
+    .post-slide .post-img{
+        position: relative;
+        border-radius: 10px;
+        margin: -12px 15px 8px 15px;
+        margin-left: -10px;
+    }
+    .post-slide .post-img img{
+        width: 100%;
+        height: auto;
+        transform: scale(1,1);
+        transition:transform 0.2s linear;
+          max-height: 850px;
+    }
+    
+    .post-slide .over-layer{
+        width:100%;
+        height:100%;
+        position: absolute;
+        top:0;
+        left:0;
+        opacity:0;
+        background: linear-gradient(-45deg, rgba(6,190,244,0.75) 0%, rgba(45,112,253,0.6) 100%);
+        transition:all 0.50s linear;
+
+}
+    }
+    .post-slide:hover .over-layer{
+        opacity:1;
+        text-decoration:none;
+    }
+    .post-slide .over-layer i{
+        position: relative;
+        top:45%;
+        text-align:center;
+        display: block;
+        color:#fff;
+        font-size:25px;
+    }
+
+    .owl-controls .owl-buttons{
+        text-align:center;
+        margin-top:20px;
+    }
+    .owl-controls .owl-buttons .owl-prev{
+        background: #fff;
+        position: absolute;
+        top:-13%;
+        left:15px;
+        padding: 0 18px 0 15px;
+        border-radius: 50px;
+        box-shadow: 3px 14px 25px -10px #92b4d0;
+        transition: background 0.5s ease 0s;
+    }
+    .owl-controls .owl-buttons .owl-next{
+        background: #fff;
+        position: absolute;
+        top:-13%;
+        right: 15px;
+        padding: 0 15px 0 18px;
+        border-radius: 50px;
+        box-shadow: -3px 14px 25px -10px #92b4d0;
+        transition: background 0.5s ease 0s;
+    }
+    .owl-controls .owl-buttons .owl-prev:after,
+    .owl-controls .owl-buttons .owl-next:after{
+        content:"\f104";
+        font-family: FontAwesome;
+        color: #333;
+        font-size:30px;
+    }
+    .owl-controls .owl-buttons .owl-next:after{
+        content:"\f105";
+    }
+    @media only screen and (max-width:1280px) {
+        .post-slide .post-content{
+            padding: 0px 15px 25px 15px;
+        }
+    }
